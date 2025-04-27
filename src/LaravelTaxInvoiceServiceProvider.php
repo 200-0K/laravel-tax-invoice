@@ -2,9 +2,9 @@
 
 namespace Err0r\LaravelTaxInvoice;
 
+use Err0r\LaravelTaxInvoice\Commands\LaravelTaxInvoiceCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Err0r\LaravelTaxInvoice\Commands\LaravelTaxInvoiceCommand;
 
 class LaravelTaxInvoiceServiceProvider extends PackageServiceProvider
 {
