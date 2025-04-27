@@ -2,9 +2,9 @@
 
 namespace Err0r\LaravelTaxInvoice\Tests;
 
+use Err0r\LaravelTaxInvoice\LaravelTaxInvoiceServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Err0r\LaravelTaxInvoice\LaravelTaxInvoiceServiceProvider;
 
 class TestCase extends Orchestra
 {
