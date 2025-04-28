@@ -17,9 +17,9 @@ class LaravelTaxInvoiceServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-tax-invoice')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel_tax_invoice_table')
-            ->hasCommand(LaravelTaxInvoiceCommand::class);
+            ->hasViews();
+        // ->hasConfigFile()
+        // ->hasMigration('create_laravel_tax_invoice_table')
+        // ->hasCommand(LaravelTaxInvoiceCommand::class)
     }
 }

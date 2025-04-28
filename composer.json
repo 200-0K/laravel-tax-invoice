@@ -17,8 +17,11 @@
     ],
     "require": {
         "php": "^8.3",
-        "spatie/laravel-package-tools": "^1.16",
-        "illuminate/contracts": "^10.0||^11.0||^12.0"
+        "carlos-meneses/laravel-mpdf": "^2.1",
+        "illuminate/contracts": "^10.0||^11.0||^12.0",
+        "laraveldaily/laravel-invoices": "^4.1",
+        "salla/zatca": "^3.0",
+        "spatie/laravel-package-tools": "^1.16"
     },
     "require-dev": {
         "laravel/pint": "^1.14",
