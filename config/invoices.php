@@ -87,11 +87,11 @@ return [
          * Default attributes for Seller::class
          */
         'attributes' => [
-            'name'          => config('entity.seller.name'),
-            'address'       => config('entity.seller.address'),
-            'code'          => config('entity.seller.code'),
-            'vat'           => config('entity.seller.vat'),
-            'phone'         => config('entity.seller.phone'),
+            'name'          => '-', // config('tax-invoice.seller.name'),
+            'address'       => '-', // config('tax-invoice.seller.address'),
+            'code'          => '-', // config('tax-invoice.seller.code'),
+            'vat'           => '-', // config('tax-invoice.seller.vat'),
+            'phone'         => '-', // config('tax-invoice.seller.phone'),
             'custom_fields' => [
                 /*
                  * Custom attributes for Seller::class
